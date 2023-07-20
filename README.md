@@ -1,5 +1,7 @@
 # Car Inventory Dashboard with Firebase
 
+![Car Inventory Dashboard](/path/to/your/car-inventory-dashboard-screenshot.png)
+
 ## Description
 
 Car Inventory Dashboard is a web application built with ReactJS, Material-UI, and Data Grid components to manage a collection of cars. It allows users to view, add, update, and delete car records in the inventory through an intuitive dashboard interface.
@@ -11,11 +13,13 @@ Car Inventory Dashboard is a web application built with ReactJS, Material-UI, an
 - Update existing car details directly from the dashboard.
 - Delete cars from the inventory with a simple click.
 - Sign In and Sign Up functionality using Google Firebase Authentication.
+- Interactive Map to display car locations on a map.
 
 ## Technologies Used
 
-- Frontend: ReactJS, Material-UI, Data Grid (`@mui/x-data-grid`), `react-hook-form`
+- Frontend: ReactJS, Material-UI, Data Grid (`@mui/x-data-grid`), `react-hook-form`, React Leaflet, Leaflet
 - Backend: Node.js, Express.js, MongoDB (or any backend and database of your choice)
+- Authentication: Google Firebase Authentication
 
 ## Prerequisites
 
@@ -28,7 +32,7 @@ Car Inventory Dashboard is a web application built with ReactJS, Material-UI, an
 1. Clone the repository.
 
 ```bash
-git clone https://github.com/HussainAther/CarInventoryDashboard
+git clone https://github.com/HussainAther/CarInventoryDashboard.git
 cd CarInventoryDashboard
 ```
 
@@ -44,10 +48,10 @@ cd ../server
 npm install
 ```
 
-4. Set Up Firebase
-* Go to the Firebase Console, create a new project, and enable the Authentication service.
+4. Go to the Firebase Console, create a new project, and enable the Authentication service.
+
 * Obtain the Firebase project's configuration details.
-* Update the firebaseConfig object in `src/firebase.js` with your Firebase project's configuration.
+* Update the firebaseConfig object in src/firebase.js with your Firebase project's configuration.
 
 ## Usage
 1. Start the Frontend Development Server
@@ -58,7 +62,7 @@ npm start
 
 2. Access the car inventory dashboard at http://localhost:3000 (or the given URL) in your web browser.
 
-3. Start the Backend Server
+## Start the Backend Server
 
 ```bash
 cd server
