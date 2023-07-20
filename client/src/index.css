@@ -1,0 +1,31 @@
+/* src/index.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: auto;
+  padding: 10px;
+}
+
+.car-details {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+/* Additional styling for DataGrid */
+.MuiDataGrid-root {
+  border: 1px solid #ccc;
+}
+
